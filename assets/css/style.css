@@ -288,39 +288,8 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-figure{
-    display: flexbox;
-    flex-wrap: wrap;
-    gap: 20px;
-  margin-bottom: 10px;
-  padding: 0 15px;
-  max-width: 1000px;
-  margin-inline: auto;
-  padding-bottom: 20px;
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
-  scroll-behavior: smooth;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 15px;
-  scroll-snap-points-x: repeat(15px);
-  scroll-snap-type: x mandatory;
-  scroll-snap-align: start;
-  scroll-padding-inline-start: 15px;
-  scroll-padding-inline-end: 15px;
-  scroll-padding: 0 15px;
-  scroll-snap-type: x mandatory;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  overscroll-behavior-inline: contain;
-  overscroll-behavior: contain;
-  overscroll-behavior-x: contain;
-  overscroll-behavior-y: contain;
-}
-figcaption {
-  color: white;
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-}
+
+
 
 
 
@@ -1824,6 +1793,39 @@ textarea.form-input::-webkit-resizer { display: none; }
     align-items: stretch;
     gap: 25px;
   }
+  figure{
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-behavior: smooth;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 15px;
+    scroll-snap-points-x: repeat(15px);
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    scroll-padding-inline-start: 15px;
+    scroll-padding-inline-end: 15px;
+    scroll-padding: 0 15px;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    overscroll-behavior-inline: contain;
+    overscroll-behavior: contain;
+    overscroll-behavior-x: contain;
+    overscroll-behavior-y: contain;
+}
+figcaption {
+  color: white;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+}
 
   .main-content {
     min-width: 75%;
